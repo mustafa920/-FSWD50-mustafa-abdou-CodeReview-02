@@ -1,0 +1,331 @@
+    header {
+    background-color: #5B1213;
+}
+
+#nav-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    background-color: black;
+}
+
+.link {
+    color: white;
+    text-decoration-line: none;
+    padding-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+    padding-right: 20px;
+}
+
+
+}
+
+#time {text-align: left;
+}
+
+#top-news {
+    color: white;
+    font-size: 20px;
+    background-color: #DEDEDE;
+}
+
+
+
+
+
+/*section*/
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#left-section {
+    margin-left: 20px;
+    justify-content: space-between;
+    color: white;
+}
+
+.left-section {}
+
+.images {
+    width: 320px;
+    height: 240px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-g {
+    color: #636363;
+    margin-left: 5px;
+}
+
+#first-raw {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    height: 400px;
+}
+
+#second-raw {
+    background-color: #DEDEDE;
+    height: 50px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+#third-raw {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.text-right-section {
+    width: 320px;
+    margin-left: 10px;
+    background-color: black;
+    height: 90px;
+    position: relative;
+    padding-bottom: 20px;
+    bottom: 37px;
+}
+
+#right-section {}
+
+.right-section {
+    margin-right: 200px;
+    height: 820px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+#contant2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#developer {
+    margin: 20px;
+    margin-top: -40px;
+    margin-right: 90px;
+}
+
+#first-rawf {
+    display: flex;
+    justify-content: space-around;
+}
+
+#second-raws {
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right-section2 {
+    ;
+    width: 100px;
+    height: 840px;
+}
+
+#all {
+    width: 80%;
+}
+
+#right-section2 {
+
+    position: relative;
+    right: 200px;
+}
+
+#media-quere {
+    display: none;
+}
+
+
+
+
+
+/* footer  */
+footer {
+    background-color: black;
+    height: 150px;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px
+}
+
+#footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+
+
+/* Media Queries */
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: #e0ecff;
+    }
+
+    #time {
+        display: none;
+    }
+
+    #content {
+        display: none;
+    }
+
+    #contant2 {
+        display: none;
+    }
+
+    #developer {
+        display: none;
+    }
+
+    #first-banner {
+        display: none;
+    }
+
+    #media-quere {
+        display: block;
+        padding: 0px;
+        margin: auto;
+    }
+
+
+    .media-img {
+
+        width: 144px;
+        height: 150px;
+    }
+
+    #first-media-pa {
+        display: flex;
+        width: 300px;
+        position: relative;
+        bottom: 33px;
+        right: 13px;
+    }
+
+    .text-right-section {
+        font-size: 15px;
+        height: 30px;
+        width: 150px;
+        position: relative;
+        left: 5px;
+    }
+
+    #first-media-jeff {
+        position: relative;
+        right: 15px;
+        bottom: 33px;
+        width: 140px;
+    }
+
+    #first-media-one {
+        position: relative;
+        right: 10px;
+        bottom: 34px;
+        width: 120px;
+    }
+
+    #popular {
+        background-color: #DEDEDE;
+        display: block;
+        height: 40px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .p-g {
+        color: white;
+    }
+
+    #jeff-text {
+        position: relative;
+        right: 15px;
+        width: 140px;
+    }
+
+    #first-media-jeff {}
+}
+
+}
+
+
+/*tablet*/
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: #D8D4CF;
+    }
+    #time {
+        display: flex;
+    }
+    #content {
+        display: flex;
+    }
+    #contant2 {
+        display: flex;
+    }
+    #developer {
+        display: none;
+    }
+    #first-banner {
+        display: flex;
+    }
+
+    #media-quere {
+        display: none;
+    }
+    #right-section {
+        display: none;
+    }
+    #right-section2 {
+        display: none;
+    }
+    #jeff {
+        display: flex;
+        position: relative;
+        top: 460px;
+        left: 330px;
+    }
+    #jeff2 {
+        position: relative;
+        top: 422px;
+        left: 330px;
+    }
+    #images2 {
+        width: 320px;
+        height: 240px;
+    }
+    #second-raws {}
